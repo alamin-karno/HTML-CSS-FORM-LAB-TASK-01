@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Lab Performance 1</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+
+        
+
+        <table>
+
+            <caption><a href="#">The complete Registration form with perfect Javascript validation</a></caption>
+
+            <tr>
+                <td><label for="name">Enter your name</label></td>
+                <td><p>:</p></td>
+                <td><input id="name" name="name" type="text" required></td>
+            </tr>
+            <tr>
+                <td><label for="mail">Enter your Mail ID</label></td>
+                <td><p>:</p></td>
+                <td><input id="mail" name="mail" type="email" required></td>
+            </tr>
+            <tr>
+                <td><label for="radio">Choose Your Gender</label></td>
+                <td><p>:</p></td>
+                <td> 
+                    <input type="radio" id="male" name="gender" value="male">
+                    <label for="male">Male</label>
+                    <input type="radio" id="female" name="gender" value="female">
+                    <label for="female">Female</label>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="password">Choose Your Password</label></td>
+                <td><p>:</p></td>
+                <td><input type="password" id="password" minlength="6" name="passowrd" required></td>
+            </tr>
+            <tr>
+                <td><label for="conpassword">Confirm Your Password</label></td>
+                <td><p>:</p></td>
+                <td><input type="password" id="conpassword" minlength="6" name="conpassowrd" required></td>
+            </tr>
+            <tr>
+                <td><label for="number">Mobile No</label></td>
+                <td><p>:</p></td>
+                <td><input type="tel" id="number" minlength="11" name="number" required></td>
+            </tr>
+            <tr>
+                <td> <label for="date">Choose Your DOB</label></td>
+                <td><p>:</p></td>
+                <td>
+                    <select>
+                        <option value="">DD</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">....</option>
+                      </select>
+                      <select>
+                        <option value="">MM</option>
+                        <option value="january ">January</option>
+                        <option value="february">February</option>
+                        <option value="march ">March</option>
+                        <option value="april ">April</option>
+                        <option value="may ">May</option>
+                        <option value="june ">June</option>
+                        <option value="july ">July</option>
+                        <option value="august ">August</option>
+                        <option value="sepetember ">Sepetember</option>
+                        <option value="october ">October</option>
+                        <option value="november ">November</option>
+                        <option value="december ">Decemner</option>
+                      </select>
+                      <select>
+                        <option value="">YYYY</option>
+                        <option value="...">....</option>
+                        <option value="2018">2018</option>
+                        <option value="2019">2019</option>
+                        <option value="2020">2020</option>
+                        <option value="2021">2021</option>
+                        <option value="2022">2022</option>
+                        <option value="2023">2023</option>
+                        <option value="...">....</option>
+                      </select>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="textarea">Choose Your Address</label></td>
+                <td><p>:</p></td>
+                <td><textarea type="textarea" id="textarea"  name="textarea" required></textarea></td>
+            </tr>
+            <tr>
+                <td><label for="location">Choose Your Location</label></td>
+                <td><p>:</p></td>
+                <td>
+                    <select id="location">
+                        <option value="">Select</option>
+                        <option value="dhaka">Dhaka</option>
+                        <option value="gazipur">Gazipur</option>
+                        <option value="feni">Feni</option>
+                        <option value="mymensign">Mymensign</option>
+                        <option value="....">......</option>
+                      </select>
+                </td>
+            </tr>
+            <tr>
+                <td><button type="submit" class="btnright">Submit</button></td>
+                <td><button type="clear" class="btnleft">Clear</button></td>
+            </tr>
+
+        </table>
+    </body>
+</html>

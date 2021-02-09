@@ -1,0 +1,32 @@
+body {
+    margin: 70px;
+    
+}
+table {
+    background-color: #BFBFBF;
+    padding: 15px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+caption{
+    background-color: #BFBFBF;
+    padding: 15px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+a {
+    color: black;
+    font-weight: bold;
+}
+td {
+    padding: 5px;
+}
+
+.btnright {
+    float: right;
+    margin-right: 30px;
+}
+.btnleft {
+    float: left;
+    margin-left: 40px;
+}
